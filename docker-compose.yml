@@ -1,0 +1,8 @@
+version: "2"
+services:
+  cache-app:
+     container_name: cache_application
+     image: cache:latest
+     ports:
+       - 8081:8080
+
